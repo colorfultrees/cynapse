@@ -152,6 +152,7 @@ export class ImageUploadService {
     this.removeImageContainer();
     this.removeStyleFromEditor();
     this.imgUploadEditorRef = '';
+    (<HTMLInputElement>document.getElementById('fileEditor')).value = '';
   }
 
   /**

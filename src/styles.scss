@@ -221,6 +221,12 @@ p {
   min-height: 80px;
 }
 
+.ql-syntax {
+  overflow: hidden;
+  width: 100%;
+  white-space: pre-wrap;
+}
+
 .editor[_ngcontent-bbk-c150] quill-editor[_ngcontent-bbk-c150] {
   height: unset !important;
 }
