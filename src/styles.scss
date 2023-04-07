@@ -4,7 +4,7 @@
 @import "~quill/dist/quill.snow.css";
 @import "~quill-emoji/dist/quill-emoji.css";
 @import "material-icons/iconfont/material-icons.css";
-@import "styles/fonts.scss";
+// @import "styles/fonts.scss";
 
 a {
   color: white !important;
@@ -101,14 +101,14 @@ p {
 // Quil Editor Changes //
 
 #emoji-palette {
-  top: -205px !important;
+  top: -132px !important;
   left: unset !important;
   max-width: 400px;
   width: 100%;
 }
 
 #tab-panel {
-  max-height: 120px !important;
+  max-height: 64px !important;
 }
 
 .ql-toolbar {
