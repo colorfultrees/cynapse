@@ -67,10 +67,8 @@ export class ChannelsComponent {
     const dialogRef = this.dialog.open(DialogCreateChannelComponent);
 
     dialogRef.afterClosed().subscribe(async (dialogData) => {
-      try {
-        if (dialogData.name) await this.createChannel(dialogData);
-      }
-      catch {/* do nothing */}
+      if (!dialogData) return;
+      if (dialogData.name) await this.createChannel(dialogData);
     });
   }
 
