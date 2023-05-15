@@ -11,9 +11,17 @@
   }
 
   .badge-more-users {
+    display: flex;
+    align-items: center;
     font-size: 12px;
     font-weight: bold;
     padding: 0px 7px;
     border-radius: 10px;
+
+    .chat-users-ico {
+      font-size: 18px;
+      width: 18px;
+      height: 18px;
+    }
   }
 }

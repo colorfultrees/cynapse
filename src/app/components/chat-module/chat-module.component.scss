@@ -1,6 +1,7 @@
 @import "src/app/components/channel-module/channel-module.component.scss";
 
 #members-list {
+  height: 100%;
   max-width: 100%;
   overflow-x: auto;
   overflow-y: hidden;

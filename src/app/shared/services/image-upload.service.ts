@@ -123,7 +123,7 @@ export class ImageUploadService {
    * @param editor - to get the correct editor
    */
   addMarginPadding(editor) {
-    editor.style.margin = '0 0 90px 0';
+    editor.style.margin = '0 0 105px 0';
     editor.style.padding = '12px 15px 0 15px';
   }
 
@@ -185,8 +185,8 @@ export class ImageUploadService {
     if (this.imageURL.length == 0) {
       for (let i = 0; i < editor.length; i++) {
         const element = editor[i] as HTMLElement;
-        element.style.padding = '12px 15px 12px 15px';
-        element.style.margin = '0';
+        element.style.removeProperty('padding');
+        element.style.removeProperty('margin');
       }
     }
   }
